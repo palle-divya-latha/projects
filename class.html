@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <style>
+        div
+        {
+            background-color: rgb(71, 184, 184);
+            border-width: 5px ;
+        }
+       body
+        {
+            color: rgb(25, 19, 19);
+          
+            background-color: rgb(212, 171, 230);
+            
+        }
+        h4
+        {
+            background-color: cornsilk;
+        }
+       h3
+       {
+        border-radius: 5px;
+        background-color: blanchedalmond;
+       }
+       h2
+       {
+        background-color: coral;
+       }
+       .Items
+       {
+        background-color: aquamarine;
+       }
+       .cart{
+        background-color: burlywood;
+       }
+       #Item{
+        background-color: darkgrey;
+       }
+       p.Items{
+        color: firebrick;
+       }
+       *{
+        color: darkblue;
+       }
+       #Item{
+        color: crimson;
+       }
+
+    </style>
+</head>
+<body>
+    <h2>Hotel ABC</h2>
+    <h3 id="Item">Items</h3>
+    <div>
+        <h4>Item1</h4>
+        <p>description of Item1</p>
+    </div>
+    
+        <div class = Items>
+            <h4>Item1</h4>
+            <p>description of Item1</p>
+        </div>
+        <div class = Items>
+            <h4>Item2</h4>
+            <p>description of Item2</p>
+        </div>
+        <div class = Items>
+            <h4>Item3</h4>
+            <p>description of Item3</p>
+        </div>
+        <div class = Items>
+            <h4>Item4</h4>
+            <p>description of Item14</p>
+        </div>
+        <hr>
+        <h3 id="cart heading">cart</h3>
+        <div class = cart>
+            <h4>Item1 - 2plates</h4>
+            <h5>cost - 20rs</h5>
+        </div>
+        <div class = cart>
+            <h4>Item2 - 2plates</h4>
+            <h5>cost - 30rs</h5>
+        </div>
+        <div class = cart>
+            <h4>Item3 - 2plates</h4>
+            <h5>cost - 40rs</h5>
+        </div>
+        <div class = cart>
+            <h4>Item5 - 2plates</h4>
+            <h5>cost - 50rs</h5>
+        </div>
+        <script>
+            const a = document.getElementById("Item");
+            const b = document.getElementsByClassName(" cart");
+            const c = document.getElementsByTagName("h3:Items");
+            alert(a);         
+            alert(b);
+            alert(c);
+        </script>
+    
+</body>
+</html>
